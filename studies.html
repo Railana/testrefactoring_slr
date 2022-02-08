@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Test code refactoring: A SLR</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon_aries_lab.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+  <link href="assets/css/style_table.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ======= Header ======= -->
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex justify-content-between align-items-center">
+
+    <div class="logo">
+      <h1><a href="index.html">Test code refactoring</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    </div>
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a href="index2.html">Home</a></li>
+        <li><a href="protocol.html">Protocol</a></li>
+        <li><a class="active" href="studies.html">Primary studies</a></li>
+        <li><a href="results.html">Results</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </div>
+</header><!-- End Header -->
+
+<main id="main">
+
+  <section id="AUTHORS" class="clients">
+
+
+    <div class="container">
+      </br></br>
+      <div class="section-title">
+        <h2>Primary studies</h2>
+        <!--          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>-->
+      </div>
+    </div>
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xxl-3 col-md-6">
+            <div class="card info-card sales-card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #632682;">
+                  Publications
+                </h5>
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <h1><i class="bi bi-book"></i></h1>
+                  </div>
+                  <div class="ps-1">
+                    <h1>29</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-md-6">
+            <div class="card info-card sales-card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #632682;">
+                  Authors
+                </h5>
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <h1><i class="bi bi-person"></i></h1>
+                  </div>
+                  <div class="ps-1">
+                    <h1>99</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-md-6">
+            <div class="card info-card sales-card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #632682;">
+                  Countries
+                </h5>
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <h1><i class="bi bi-pin-map"></i></h1>
+                  </div>
+                  <div class="ps-1">
+                    <h1>X</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xxl-3 col-md-6">
+            <div class="card info-card sales-card">
+              <div class="card-body">
+                <h5 class="card-title" style="color: #632682;">
+                  Institutions
+                </h5>
+                <div class="d-flex align-items-center">
+                  <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
+                    <h1><i class="bi bi-building"></i></h1>
+                  </div>
+                  <div class="ps-1">
+                    <h1>40</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" style="justify-content: center; align-items: center">
+          <div class="col-12">
+            <div class="card recent-sales overflow-auto">
+
+              <div class="filter">
+                <a class="icon" href="#" data-bs-toggle="dropdown"></a>
+                <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
+                  <li class="dropdown-header text-start">
+                    <h6>Filter</h6>
+                  </li>
+
+                  <li><a class="dropdown-item" href="#">Today</a></li>
+                  <li><a class="dropdown-item" href="#">This Month</a></li>
+                  <li><a class="dropdown-item" href="#">This Year</a></li>
+                </ul>
+              </div>
+
+              <div class="card-body">
+                <table class="table table-borderless datatable">
+                  <thead>
+                  <tr style="">
+                    <th scope="col">ID</th>
+                    <th scope="col">Study title</th>
+                    <th scope="col">Authors</th>
+                    <th scope="col">Year</th>
+                    <th scope="col">Venue (Acronym)</th>
+                    <th scope="col">Step</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                    <td>S01</td>
+                    <td><a target="_blank" href="https://link.springer.com/article/10.1007/s10009-008-0075-0">An approach to quality engineering of TTCN-3 test specifications</a></td>
+                    <td>Neukirchen et al. </td>
+                    <td>2008</td>
+                    <td>STTT</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S02</td>
+                    <td><a target="_blank"  href="https://dl.acm.org/doi/abs/10.1145/3468264.3468590?casa_token=XkxGOTP95i8AAAAA:IAOLLHRvjfBPgCuSjU6qqKBnKhQqCeGKkFDRVPdxgZ7QS4C3QuWwPKkE3G467fyIxg44iqqW27VOR0k"> An automatic refactoring framework for replacing test-production inheritance by mocking mechanism</a></td>
+                    <td>Wang et al.</td>
+                    <td>2021</td>
+                    <td>ESEC/FSE</td>
+                    <td><span class="badge bg-warning">Step 5</span></td>
+                  </tr>
+                  <tr>
+                    <td>S03</td>
+                    <td><a href="#">An Exploratory Study on the Refactoring of Unit Test Files in Android Applications</a></td>
+                    <td>Peruma et al.</td>
+                    <td>2020</td>
+                    <td>ICSEW</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S04</td>
+                    <td><a href="#">Automated Acceptance Test Refactoring</a></td>
+                    <td>Borg and Kropp</td>
+                    <td>2011</td>
+                    <td>WRT</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S05</td>
+                    <td><a href="#"> Automated Detection of Test Fixture Strategies and Smells</a></td>
+                    <td>Greiler et al.</td>
+                    <td>2013</td>
+                    <td>ICST</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S06</td>
+                    <td><a href="#">Automated Maintainability of TTCN-3 Test Suites Based on Guideline
+                      Checking</a></td>
+                    <td>Din et al. </td>
+                    <td>2008</td>
+                    <td>IFIP SEUS</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S07</td>
+                    <td><a href="#">Automatically repairing test cases for evolving method declarations</a></td>
+                    <td>Mirzaaghaei et al.</td>
+                    <td>2010</td>
+                    <td>ICSM</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S08</td>
+                    <td><a href="#">Bad smells and refactoring methods for gui test scripts</a></td>
+                    <td>Chen and Wang</td>
+                    <td>2012</td>
+                    <td>SNPD</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S09</td>
+                    <td><a href="#">DeepTC-Enhancer: Improving the readability of automatically generated tests</a></td>
+                    <td>Roy et al.</td>
+                    <td>2020</td>
+                    <td>ASE</td>
+                    <td><span class="badge bg-warning">Step 5</span></td>
+                  </tr>
+                  <tr>
+                    <td>S10</td>
+                    <td><a href="#">Empirical support for two refactoring studies using commercial C# software</a></td>
+                    <td>Gatrell et al.</td>
+                    <td>2009</td>
+                    <td>EASE</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S11</td>
+                    <td><a href="#">Exploring the Impact of Clone Refactoring on Test Code Size in ObjectOriented Software</a></td>
+                    <td>Mourad et al.</td>
+                    <td>2017</td>
+                    <td>ICMLA</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S12</td>
+                    <td><a href="#"> Generating Refactoring Proposals to Remove Clones from Automated System Tests</a></td>
+                    <td>Hauptmann et al.</td>
+                    <td>2015</td>
+                    <td>ICPC</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S13</td>
+                    <td><a href="#"> How we refactor and how we document it? On the use of supervised machine learning algorithms to classify refactoring documentation</a></td>
+                    <td>Abdullah AlOmar et al.</td>
+                    <td>2021</td>
+                    <td>ExSA</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S14</td>
+                    <td><a href="#"> Integrated Test Development: An Integrated and Incremental Approach to Write Software of High Quality</a></td>
+                    <td>Bijlsma et al.</td>
+                    <td>2018</td>
+                    <td>CSERC</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S15</td>
+                    <td><a href="#"> Just-In-Time Test Smell Detection and Refactoring: The DARTS Project</a></td>
+                    <td>Lambiase et al</td>
+                    <td>2020</td>
+                    <td>ICPC</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S16</td>
+                    <td><a href="#">Maintaining Unit Tests During Refactoring</a></td>
+                    <td>Passier et al.</td>
+                    <td>2016</td>
+                    <td>PPPJ</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S17</td>
+                    <td><a href="#">Making Android Apps Monkey-Friendly</a></td>
+                    <td>Paydar</td>
+                    <td>2020</td>
+                    <td>MOBILESoft</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S18</td>
+                    <td><a href="#">On the Quality of Identifiers in Test Code</a></td>
+                    <td>Lin et al.</td>
+                    <td>2019</td>
+                    <td>SCAM</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S19</td>
+                    <td><a href="#"> RAIDE: A Tool for Assertion Roulette and Duplicate Assert Identification and Refactoring</a></td>
+                    <td>Santana et al.</td>
+                    <td>2020</td>
+                    <td>SBES</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S20</td>
+                    <td><a href="#">Refactoring and metrics for TTCN-3 test suites</a></td>
+                    <td>Zeiss et al. </td>
+                    <td>2006</td>
+                    <td>SAM</td>
+                    <td><span class="badge bg-warning">Step 5</span></td>
+                  </tr>
+                  <tr>
+                    <td>S21</td>
+                    <td><a href="#">Refactoring as Testability Transformation</a></td>
+                    <td>Harman</td>
+                    <td>2011</td>
+                    <td>ICSTW</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S22</td>
+                    <td><a href="#">Refactoring Test Code Safely</a></td>
+                    <td>Guerra and Fernandes </td>
+                    <td>2007</td>
+                    <td>ICSEA</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S23</td>
+                    <td><a href="#">Refactoring Test Smells: A Perspective from Open-Source Developers</a></td>
+                    <td>Soares et al.</td>
+                    <td>2020</td>
+                    <td>SAST</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S24</td>
+                    <td><a href="#">Refactoring Test Suites versus Test Behaviour: A TTCN-3 Perspective</a></td>
+                    <td>Counsell and Hierons</td>
+                    <td>2007</td>
+                    <td>ESEC/FSE and SOQUA</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S25</td>
+                    <td><a href="#">RTj: a Java Framework for Detecting and Refactoring Rotten Green
+                      Test Cases</a></td>
+                    <td>Martinez et al.</td>
+                    <td>2020</td>
+                    <td>ICSE</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S26</td>
+                    <td><a href="#"> Test and Production Classes of an Industrial C# System: A Refactoring and Fault Perspective</a></td>
+                    <td>Gatrell et al.</td>
+                    <td>2015</td>
+                    <td>SEAA</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S27</td>
+                    <td><a href="#">Test behaviour detection as a test refactoring safety</a></td>
+                    <td>Bladel and Demeyer</td>
+                    <td>2018</td>
+                    <td>IWoR</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S28</td>
+                    <td><a href="#">Towards an Extensible Architecture for Refactoring Test Code</a></td>
+                    <td>Marinke et al.</td>
+                    <td>2019</td>
+                    <td>ICCSA</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+                  <tr>
+                    <td>S29</td>
+                    <td><a href="#">TRex - The Refactoring and Metrics Tool for TTCN-3 Test Specifications</a></td>
+                    <td>Baker et al.</td>
+                    <td>2006</td>
+                    <td> TAIC PART</td>
+                    <td><span class="badge bg-success">Step 4</span></td>
+                  </tr>
+
+
+
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div><!-- End Recent Sales -->
+        </div>
+      </div>
+    </section><!-- End Team Section -->
+  </section>
+</main><!-- End #main -->
+
+<!-- ======= Footer ======= -->
+<footer id="footer">
+
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-2 footer-links">
+          <img src="assets/img/partners/arieslab-original-branca.png" class="img-fluid animated" alt="" width="400">
+        </div>
+
+        <div class="col-lg-6 col-md-2 footer-links">
+          <div>
+            <i class="bi bi-globe2"></i> https://arieslab.github.io/
+          </div>
+          <div>
+            <i class="bi bi-envelope"></i> arieslab@outlook.com
+          </div>
+          <div>
+            <i class="bi bi-instagram"></i> @aries_lab
+          </div>
+          <div>
+            <i class="bi bi-geo"></i> Address: UFBA Campus Ondina, Adhemar de Barros Ave., Institute of Mathematics and Statistics - Salvador, BA, Brazil - ZIP Code 40170-110
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Eterna</span></strong>. All Rights Reserved
+    </div>
+    <div class="credits">
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </div>
+  </div>
+</footer><!-- End Footer -->
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+<script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+<script src="assets/vendor/tinymce/tinymce.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+<script src="assets/js/js-table.js.js"></script>
+
+</body>
+
+</html>

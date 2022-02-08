@@ -20,7 +20,8 @@ a {
 }
 
 a:hover {
-  color: #e6573f;
+  /*color: #e6573f;*/
+  color: blueviolet;
   text-decoration: none;
 }
 
